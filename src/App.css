@@ -1,0 +1,23 @@
+.conatin {
+    flex-direction: column;
+    height: 100%;
+    background-color: whitesmoke;
+}
+
+.sub-container {
+    flex-direction: column;
+    height: 85vh;
+}
+
+.logo{
+    font-size: 2vmax !important;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7vh;
+    color: whitesmoke !important;
+    width: 100%;
+    font-family: monospace;
+}
