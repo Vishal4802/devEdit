@@ -1,11 +1,7 @@
-body {
-    background-color: whitesmoke;
-}
-
 .conatin {
     flex-direction: column;
     height: 100%;
-    background-color: whitesmoke;
+    background-color: white;
 }
 
 .sub-container {
@@ -22,7 +18,7 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 7vh;
-    color: whitesmoke !important;
+    color: white !important;
     width: 100%;
     font-family: monospace;
 }
