@@ -7,6 +7,7 @@
 .sub-container {
     flex-direction: column;
     height: 85vh;
+    margin-top: 0.3vw;
 }
 
 .logo{
@@ -20,4 +21,65 @@
     color: whitesmoke !important;
     width: 100%;
     font-family: monospace;
+}
+
+.canvas {
+    margin-top: -1vw;
+}
+
+.navbar{
+    width: 100%;
+    justify-content: space-between;
+}
+
+@media (max-width: 1200px) {
+    .sub-container {
+        margin-top: 3.3vw;
+    }
+}
+
+@media (max-width: 1200px) {
+    .edit {
+        flex-direction: column;
+    }
+    .sub-container {
+        margin-top: 40vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .sub-container {
+        margin-top: 42vw;
+    }
+    .logo{
+        justify-content: center;
+        font-size: 2.5vmax !important;
+    }
+    .logo > .btn {
+        display: none;
+    }
+    .nav {
+        padding-left: 5vw;
+    }
+    .navbar {
+        justify-content: flex-start;
+        gap: 10vw;
+    }
+    .import {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2vw;
+    }
+    .import > input {
+        padding-left: 90px;
+    }
+    canvas {
+        width: 90vw;
+        height: 90vw;
+    }
+    .download {
+        width: 100%;
+    }
 }

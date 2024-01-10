@@ -97,8 +97,8 @@ const EditPage = ({ imageUrl, handleCancel }) => {
         setIsFilters={setIsFilters}
       />
 
-      <div className="d-flex justify-content-center align-items-center" style={{gap: "10vw"}}>
-        <div className="">
+      <div className="d-flex justify-content-center align-items-center edit" style={{gap: "10vw"}}>
+        <div className="canvas">
           <canvas
             id="canvas"
             className='bg-dark'
@@ -148,7 +148,7 @@ const EditPage = ({ imageUrl, handleCancel }) => {
         }
       </div>
 
-      <div className="row mt-3">
+      <div className="row mt-3 download">
         <div className="col-md-8">
           <div className="btn-group">
             <button onClick={handleDownload} className='btn btn-primary me-2'>Download</button>

@@ -15,7 +15,7 @@ const Import = ({onFileUpload }) => {
     };
   
     return (
-      <div>
+      <div className='import'>
         <input type="file" onChange={handleFileChange} />
         <button onClick={handleUpload} className='btn btn-primary'>Upload</button>
       </div>

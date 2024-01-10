@@ -3,8 +3,8 @@ import React from 'react'
 const Navbar = ({isBasic, setIsBasic, isColors, setIsColors, isEffects, setIsEffects, isFilters, setIsFilters}) => {
 
     return(
-      <nav className='mb-3 mt-3'>
-        <ul className="d-flex list-unstyled text-uppercase" style={{justifyContent: "space-around"}}>
+      <nav className='mb-3 mt-3 nav'>
+        <ul className="d-flex list-unstyled text-uppercase navbar">
           <li
             className={`text-decoration-none btn ${isBasic ? 'btn-primary' : 'btn-outline-primary'}`}
             onClick={() => {setIsBasic(isBasic? isBasic : !isBasic), setIsColors(false), setIsEffects(false), setIsFilters(false)}}
